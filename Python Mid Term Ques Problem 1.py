@@ -33,7 +33,7 @@ if taxpayerCategory == 1:
 
 # 2. Non Publicly Traded Company
 if taxpayerCategory == 2:
-    paidupCapitalThroughIPO = eval(input("How Much Share of your Paid Up Capital was Transfered thought IPO? Enter the rate in %: "))
+    paidupCapitalThroughIPO = eval(input("How Much Share of your Paid Up Capital was Transfered through IPO? Enter the rate in %: "))
     profitAmount = eval(input("Enter The Profit Amount: "))
     if paidupCapitalThroughIPO >= 20:
         if profitAmount>1000000:
