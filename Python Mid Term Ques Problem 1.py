@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[10]:
-
-
 #Corporate Tax Rate
 #Category List
 print("1: Publicly Traded Company")
@@ -104,17 +98,3 @@ if taxpayerCategory == 5:
             
 #Print Tax Amount            
 print("Net Tax For The Company is: ",round(netTax,2))
-    
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
