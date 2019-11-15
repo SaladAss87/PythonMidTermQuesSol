@@ -1,2 +1,2 @@
-# PythonMidTermQuesSolQ1-Corporate-Tax-Rate
-Corporate Tax Rate Of Bangladesh
+MIS 210 Introduction to Programming Fundamentals
+Mid-Term Question Solutions
