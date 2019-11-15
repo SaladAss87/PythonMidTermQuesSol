@@ -5,12 +5,12 @@
 packageWeight = eval(input("Enter Your Package Weight: "))
 
 if 0 < packageWeight <= 1:
-    print("Total Shipping Cost Is: 3.5")
+    print("Shipping Cost Is: 3.5")
 elif 1 < packageWeight <= 3:
-    print("Total Shipping Cost Is: 5.5 ")
+    print("Shipping Cost Is: 5.5 ")
 elif 3 < packageWeight <= 10:
-    print("Total Shipping Cost Is: 8.5")
+    print("Shipping Cost Is: 8.5")
 elif 10 < packageWeight <= 50:
-    print("Total Shipping Cost Is: 10.5",totalShippingCost)
+    print("Shipping Cost Is: 10.5")
 else:
     print("The Package Can't Be Shipped")
