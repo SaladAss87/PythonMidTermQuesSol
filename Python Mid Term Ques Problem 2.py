@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[11]:
-
-
 #Deposit Amount
 #Function of Calculating Present Deposit Amount
 
@@ -17,16 +11,3 @@ def main():
     depositAmount = presentValue(futureValue,annualInterestRate,numberOfYears)
     print("You need to deposit",round(depositAmount,2))
 main()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
