@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 #Calculating Monthly Payment
 
 loanAmount = eval(input("Enter The Loan Amount: "))
@@ -18,10 +12,3 @@ interestPaid = amountPaidBack - loanAmount
 print("Monthly Payment: ",round(monthlyPayment,2))
 print("Amount Paid Back: ",round(amountPaidBack,2))
 print("Interest Paid",round(interestPaid,2))
-
-
-# In[ ]:
-
-
-
-
