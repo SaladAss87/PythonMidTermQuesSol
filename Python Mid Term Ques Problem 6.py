@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[4]:
-
-
 #Store Sales In Asterisks
 
 store1Sales = eval(input("Enter Store 1 Sales: "))
@@ -27,10 +21,3 @@ print("Store 3 Sales: ",end = '')
 for i in range(round(store3Sales/100)):
     print("*", end = '')
 print()
-
-
-# In[ ]:
-
-
-
-
