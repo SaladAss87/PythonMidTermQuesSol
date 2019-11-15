@@ -42,11 +42,11 @@ if taxpayerCategory == 2:
         elif profitAmount < 1000000:
             taxBeforeRebate = profitAmount*.32
             netTax = taxBeforeRebate  - taxBeforeRebate*.10
-     else:
+    else:
         if profitAmount>1000000:
-           netTax = profitAmount*.35
+            netTax = profitAmount*.35
         elif profitAmount < 1000000:
-           netTax = profitAmount*.32
+            netTax = profitAmount*.32
 
 # 3. Publicly Traded Cigarette Company
 if taxpayerCategory == 3:
